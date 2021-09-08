@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta charset="UTF=8">
+    <title>SHREYAS ACHARYA | Portfolio</title>
+    <link rel ="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>I'm <span>Shreyas Acharya</span></h2>
+            <p>Hey folks , I am glad that you visited my website. My name is Shreyas Acharya studying Bachelor of Engineering
+                in Computer Science Engineering and I'm 20 years old. Built with Strong organizational skills like 
+                programming in C / C++ / JAVA / Python and Web designing say HTML/CSS/Javascript. My hobbies are playing 
+                guitar, coding, Web designing, Reading books and cooking. 
+            </p>
+            <a href="#">Know More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec=document.getElementById('sec');
+            sec.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
